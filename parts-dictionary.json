@@ -1,0 +1,157 @@
+{
+  "schema": "parts-dictionary.v1",
+  "version": "2025-12-28",
+  "language": "ja",
+  "categories": [
+    {
+      "key": "engine",
+      "label_ja": "エンジン/吸排気",
+      "items": [
+        { "name_ja": "エンジン本体", "synonyms_ja": ["エンジンASSY"], "keywords_en": ["engine","long block","short block"] },
+        { "name_ja": "シリンダーヘッド", "synonyms_ja": ["ヘッド"], "keywords_en": ["cylinder head","head"] },
+        { "name_ja": "カムシャフト", "synonyms_ja": ["カム"], "keywords_en": ["camshaft","cam"] },
+        { "name_ja": "ピストン", "synonyms_ja": ["鍛造ピストン"], "keywords_en": ["piston","forged piston"] },
+        { "name_ja": "クランクシャフト", "synonyms_ja": ["クランク"], "keywords_en": ["crankshaft","crank"] },
+
+        { "name_ja": "インテークマニホールド", "synonyms_ja": ["インマニ"], "keywords_en": ["intake manifold","inlet manifold"] },
+        { "name_ja": "スロットルボディ", "synonyms_ja": ["スロットル"], "keywords_en": ["throttle body"] },
+        { "name_ja": "エアクリーナー", "synonyms_ja": ["エアクリ","エアフィルター"], "keywords_en": ["air filter","air cleaner","intake filter"] },
+        { "name_ja": "インタークーラー", "synonyms_ja": ["IC"], "keywords_en": ["intercooler"] },
+
+        { "name_ja": "エキゾーストマニホールド", "synonyms_ja": ["エキマニ"], "keywords_en": ["exhaust manifold","header"] },
+        { "name_ja": "フロントパイプ", "synonyms_ja": ["前パイプ"], "keywords_en": ["front pipe","mid pipe"] },
+        { "name_ja": "ダウンパイプ", "synonyms_ja": ["DP"], "keywords_en": ["downpipe"] },
+        { "name_ja": "触媒", "synonyms_ja": ["キャタライザー"], "keywords_en": ["catalytic converter","catalyst"] },
+        { "name_ja": "マフラー", "synonyms_ja": ["サイレンサー"], "keywords_en": ["muffler","silencer","exhaust"] },
+
+        { "name_ja": "ターボチャージャー", "synonyms_ja": ["タービン"], "keywords_en": ["turbocharger","turbo"] },
+        { "name_ja": "スーパーチャージャー", "synonyms_ja": ["SC"], "keywords_en": ["supercharger"] }
+      ]
+    },
+    {
+      "key": "drivetrain",
+      "label_ja": "駆動系",
+      "items": [
+        { "name_ja": "トランスミッション", "synonyms_ja": ["ミッション","ギアボックス"], "keywords_en": ["transmission","gearbox"] },
+        { "name_ja": "クラッチ", "synonyms_ja": ["クラッチディスク","クラッチカバー"], "keywords_en": ["clutch","clutch disc","pressure plate"] },
+        { "name_ja": "フライホイール", "synonyms_ja": ["軽量フライホイール"], "keywords_en": ["flywheel","lightweight flywheel"] },
+        { "name_ja": "デファレンシャル", "synonyms_ja": ["デフ"], "keywords_en": ["differential","diff"] },
+        { "name_ja": "LSD", "synonyms_ja": ["機械式LSD","トルセンLSD"], "keywords_en": ["LSD","limited slip differential","torsen"] },
+        { "name_ja": "ドライブシャフト", "synonyms_ja": ["ドラシャ"], "keywords_en": ["drive shaft","driveshaft","half shaft"] },
+        { "name_ja": "プロペラシャフト", "synonyms_ja": ["プロペラ"], "keywords_en": ["prop shaft","propshaft","driveshaft"] },
+        { "name_ja": "CVジョイント", "synonyms_ja": ["等速ジョイント"], "keywords_en": ["CV joint","constant velocity joint"] },
+        { "name_ja": "シフトリンケージ", "synonyms_ja": ["シフトワイヤー","リンケージ"], "keywords_en": ["shift linkage","shifter cable"] }
+      ]
+    },
+    {
+      "key": "suspension",
+      "label_ja": "足回り",
+      "items": [
+        { "name_ja": "車高調", "synonyms_ja": ["コイルオーバー"], "keywords_en": ["coilover","coil over","damper"] },
+        { "name_ja": "ショックアブソーバー", "synonyms_ja": ["ダンパー","ショック"], "keywords_en": ["shock absorber","damper"] },
+        { "name_ja": "ストラット", "synonyms_ja": ["マクファーソンストラット"], "keywords_en": ["strut","macpherson strut"] },
+        { "name_ja": "スプリング", "synonyms_ja": ["バネ","コイルスプリング"], "keywords_en": ["spring","coil spring"] },
+        { "name_ja": "ロアアーム", "synonyms_ja": ["ロワアーム","コントロールアーム"], "keywords_en": ["lower control arm","control arm"] },
+        { "name_ja": "アッパーアーム", "synonyms_ja": ["上側アーム"], "keywords_en": ["upper control arm"] },
+        { "name_ja": "トレーリングアーム", "synonyms_ja": ["トレーリングリンク"], "keywords_en": ["trailing arm"] },
+        { "name_ja": "ブッシュ", "synonyms_ja": ["アームブッシュ"], "keywords_en": ["bushing","suspension bushing"] },
+        { "name_ja": "ボールジョイント", "synonyms_ja": ["BJ"], "keywords_en": ["ball joint"] },
+        { "name_ja": "スタビライザー", "synonyms_ja": ["アンチロールバー","スタビ"], "keywords_en": ["sway bar","anti-roll bar"] },
+        { "name_ja": "スタビリンク", "synonyms_ja": ["エンドリンク"], "keywords_en": ["sway bar link","end link"] },
+        { "name_ja": "ナックル", "synonyms_ja": ["アップライト"], "keywords_en": ["steering knuckle","upright"] }
+      ]
+    },
+    {
+      "key": "brakes",
+      "label_ja": "ブレーキ",
+      "items": [
+        { "name_ja": "ブレーキキャリパー", "synonyms_ja": ["キャリパー"], "keywords_en": ["brake caliper","caliper"] },
+        { "name_ja": "ブレーキパッド", "synonyms_ja": ["パッド"], "keywords_en": ["brake pad","pads"] },
+        { "name_ja": "ブレーキローター", "synonyms_ja": ["ディスクローター","ローター"], "keywords_en": ["brake rotor","brake disc","rotor"] },
+        { "name_ja": "ブレーキホース", "synonyms_ja": ["メッシュホース","ステンメッシュホース"], "keywords_en": ["brake hose","braided brake line"] },
+        { "name_ja": "マスターシリンダー", "synonyms_ja": ["マスター"], "keywords_en": ["master cylinder","brake master cylinder"] },
+        { "name_ja": "ブレーキブースター", "synonyms_ja": ["マスターバック"], "keywords_en": ["brake booster","servo"] },
+        { "name_ja": "ABSユニット", "synonyms_ja": ["ABSモジュール"], "keywords_en": ["ABS module","ABS unit"] },
+        { "name_ja": "サイドブレーキ", "synonyms_ja": ["パーキングブレーキ"], "keywords_en": ["parking brake","handbrake"] }
+      ]
+    },
+    {
+      "key": "cooling",
+      "label_ja": "冷却",
+      "items": [
+        { "name_ja": "ラジエーター", "synonyms_ja": ["ラジエータ"], "keywords_en": ["radiator"] },
+        { "name_ja": "オイルクーラー", "synonyms_ja": ["油冷","オイル冷却"], "keywords_en": ["oil cooler"] },
+        { "name_ja": "インタークーラー", "synonyms_ja": ["IC"], "keywords_en": ["intercooler"] },
+        { "name_ja": "ウォーターポンプ", "synonyms_ja": ["水ポンプ"], "keywords_en": ["water pump"] },
+        { "name_ja": "サーモスタット", "synonyms_ja": ["サーモ"], "keywords_en": ["thermostat"] },
+        { "name_ja": "ラジエーターファン", "synonyms_ja": ["電動ファン"], "keywords_en": ["radiator fan","cooling fan"] },
+        { "name_ja": "クーラントホース", "synonyms_ja": ["ラジエーターホース"], "keywords_en": ["coolant hose","radiator hose"] },
+        { "name_ja": "リザーバータンク", "synonyms_ja": ["サブタンク","リザーブタンク"], "keywords_en": ["coolant reservoir","expansion tank"] },
+        { "name_ja": "ラジエーターキャップ", "synonyms_ja": ["ラジキャップ"], "keywords_en": ["radiator cap"] }
+      ]
+    },
+    {
+      "key": "electronics",
+      "label_ja": "電装",
+      "items": [
+        { "name_ja": "ECU", "synonyms_ja": ["エンジンコンピューター"], "keywords_en": ["ECU","engine control unit"] },
+        { "name_ja": "配線ハーネス", "synonyms_ja": ["ハーネス","ワイヤリング"], "keywords_en": ["wiring harness","wire harness"] },
+        { "name_ja": "コネクタ", "synonyms_ja": ["カプラー"], "keywords_en": ["connector","plug"] },
+        { "name_ja": "バッテリー", "synonyms_ja": [], "keywords_en": ["battery","car battery"] },
+        { "name_ja": "オルタネーター", "synonyms_ja": ["発電機"], "keywords_en": ["alternator"] },
+        { "name_ja": "スターターモーター", "synonyms_ja": ["セルモーター"], "keywords_en": ["starter motor","starter"] },
+        { "name_ja": "イグニッションコイル", "synonyms_ja": ["点火コイル"], "keywords_en": ["ignition coil","coil pack"] },
+        { "name_ja": "O2センサー", "synonyms_ja": ["酸素センサー","AFセンサー"], "keywords_en": ["oxygen sensor","O2 sensor","air fuel sensor"] },
+        { "name_ja": "ヒューズボックス", "synonyms_ja": ["ヒューズ"], "keywords_en": ["fuse box","fuse panel"] },
+        { "name_ja": "リレー", "synonyms_ja": [], "keywords_en": ["relay","automotive relay"] },
+        { "name_ja": "スイッチ", "synonyms_ja": ["スイッチパネル"], "keywords_en": ["switch","switch panel"] }
+      ]
+    },
+    {
+      "key": "exterior",
+      "label_ja": "外装",
+      "items": [
+        { "name_ja": "フロントバンパー", "synonyms_ja": ["バンパー"], "keywords_en": ["front bumper","bumper"] },
+        { "name_ja": "リップスポイラー", "synonyms_ja": ["フロントリップ"], "keywords_en": ["front lip","lip spoiler"] },
+        { "name_ja": "サイドスカート", "synonyms_ja": ["サイドステップ"], "keywords_en": ["side skirt","side step"] },
+        { "name_ja": "リアウイング", "synonyms_ja": ["リアスポイラー","ウイング"], "keywords_en": ["rear wing","spoiler"] },
+        { "name_ja": "ディフューザー", "synonyms_ja": ["リアディフューザー"], "keywords_en": ["diffuser","rear diffuser"] },
+        { "name_ja": "ボンネット", "synonyms_ja": ["フード"], "keywords_en": ["hood","bonnet"] },
+        { "name_ja": "フェンダー", "synonyms_ja": ["オーバーフェンダー"], "keywords_en": ["fender","wide fender"] },
+        { "name_ja": "ヘッドライト", "synonyms_ja": ["ヘッドランプ"], "keywords_en": ["headlight","headlamp"] },
+        { "name_ja": "テールライト", "synonyms_ja": ["テールランプ"], "keywords_en": ["taillight","tail lamp"] },
+        { "name_ja": "グリル", "synonyms_ja": ["フロントグリル"], "keywords_en": ["grille","front grille"] },
+        { "name_ja": "ミラー", "synonyms_ja": ["ドアミラー","サイドミラー"], "keywords_en": ["side mirror","door mirror"] }
+      ]
+    },
+    {
+      "key": "interior",
+      "label_ja": "内装",
+      "items": [
+        { "name_ja": "シート", "synonyms_ja": ["バケットシート","フルバケ"], "keywords_en": ["seat","bucket seat","racing seat"] },
+        { "name_ja": "シートレール", "synonyms_ja": ["レール"], "keywords_en": ["seat rail","seat bracket"] },
+        { "name_ja": "ステアリング", "synonyms_ja": ["ハンドル"], "keywords_en": ["steering wheel"] },
+        { "name_ja": "シフター", "synonyms_ja": ["シフトノブ"], "keywords_en": ["shifter","shift knob"] },
+        { "name_ja": "ペダル", "synonyms_ja": ["ペダルカバー"], "keywords_en": ["pedal","pedal set"] },
+        { "name_ja": "ダッシュボード", "synonyms_ja": ["ダッシュ"], "keywords_en": ["dashboard","dash"] },
+        { "name_ja": "メーター", "synonyms_ja": ["メーターパネル"], "keywords_en": ["gauge cluster","instrument cluster"] },
+        { "name_ja": "内張り", "synonyms_ja": ["トリム","ドアトリム"], "keywords_en": ["interior trim","door trim"] },
+        { "name_ja": "ロールケージ", "synonyms_ja": ["ロールバー"], "keywords_en": ["roll cage","roll bar"] }
+      ]
+    },
+    {
+      "key": "other",
+      "label_ja": "その他",
+      "items": [
+        { "name_ja": "工具", "synonyms_ja": ["ツール"], "keywords_en": ["tool","hand tool","garage tool"] },
+        { "name_ja": "ケミカル", "synonyms_ja": ["添加剤","クリーナー"], "keywords_en": ["automotive chemical","cleaner","additive"] },
+        { "name_ja": "オイル缶", "synonyms_ja": ["エンジンオイル"], "keywords_en": ["engine oil","oil can"] },
+        { "name_ja": "グリス", "synonyms_ja": [], "keywords_en": ["grease","lubricant"] },
+        { "name_ja": "ブレーキフルード", "synonyms_ja": ["ブレーキ液"], "keywords_en": ["brake fluid","DOT4","DOT5.1"] },
+        { "name_ja": "説明書/マニュアル", "synonyms_ja": ["取説"], "keywords_en": ["manual","instruction","installation guide"] },
+        { "name_ja": "箱/パッケージ", "synonyms_ja": ["梱包箱"], "keywords_en": ["package","box"] },
+        { "name_ja": "その他", "synonyms_ja": ["不明"], "keywords_en": ["other","unknown"] }
+      ]
+    }
+  ]
+}
